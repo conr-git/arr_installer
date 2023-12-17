@@ -1,31 +1,6 @@
 #!/bin/bash
-### Description: \*Arr .NET Debian install
-### Originally written for Radarr by: DoctorArr - doctorarr@the-rowlands.co.uk on 2021-10-01 v1.0
-### Version v1.1 2021-10-02 - Bakerboy448 (Made more generic and conformant)
-### Version v1.1.1 2021-10-02 - DoctorArr (Spellcheck and boilerplate update)
-### Version v2.0.0 2021-10-09 - Bakerboy448 (Refactored and ensured script is generic. Added more variables.)
-### Version v2.0.1 2021-11-23 - brightghost (Fixed datadir step to use correct variables.)
-### Version v3.0.0 2022-02-03 - Bakerboy448 (Rewrote script to prompt for user/group and made generic for all \*Arrs)
-### Version v3.0.1 2022-02-05 - aeramor (typo fix line 179: 'chown "$app_uid":"$app_uid" -R "$bindir"' -> 'chown "$app_uid":"$app_guid" -R "$bindir"')
-### Version v3.0.3 2022-02-06 - Bakerboy448 fixup ownership
-### Version v3.0.3a Readarr to develop
-### Version v3.0.4 2022-03-01 - Add sleep before checking service status
-### Version v3.0.5 2022-04-03 - VP-EN (Added Whisparr)
-### Version v3.0.6 2022-04-26 - Bakerboy448 - binaries to group
-### Version v3.0.7 2023-01-05 - Bakerboy448 - Prowlarr to master
-### Version v3.0.8 2023-04-20 - Bakerboy448 - Shellcheck fixes & remove prior tarballs
-### Version v3.0.9 2023-04-28 - Bakerboy448 - fix tarball check
-### Version v3.0.9a 2023-07-14 - DoctorArr - updated scriptversion and scriptdate and to see how this is going! It was still at v3.0.8.
-### Additional Updates by: The \*Arr Community
 
-### Boilerplate Warning
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-#EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-#MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-#NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-#LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-#OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-#WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 scriptversion="3.0.9a"
 scriptdate="2023-07-14"
